@@ -7,7 +7,6 @@ class Lampa < Formula
   head "https://github.com/mechanicpanic/lampa.git", branch: "master"
 
   depends_on "go" => :build
-  depends_on :macos
   depends_on macos: :sonoma # Core Audio process taps need macOS 14.4+
 
   def install
