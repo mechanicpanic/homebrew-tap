@@ -16,7 +16,7 @@ class Lampa < Formula
     system ENV.cc, "-dynamiclib", "-O2", "-fobjc-arc", "-framework", "Foundation",
            "tap/nowplaying/nowplaying.m", "-o", libexec/"libnowplaying.dylib"
 
-    system "go", "build", *std_go_args(ldflags: "-s -w"), "./cmd/lampa"
+    system "go", "build", *std_go_args, "./cmd/lampa"
   end
 
   def caveats
