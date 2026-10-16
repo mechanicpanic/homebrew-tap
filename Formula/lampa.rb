@@ -1,8 +1,8 @@
 class Lampa < Formula
   desc "Your Mac's music to Yeelight and WiZ bulbs in real time, with a cozy TUI"
   homepage "https://github.com/mechanicpanic/lampa"
-  url "https://github.com/mechanicpanic/lampa/archive/refs/tags/v0.1.6.tar.gz"
-  sha256 "49819c31946dcfd75b907696ab5c1d6d53311296bdf65174971af1bc5fda5cfb"
+  url "https://github.com/mechanicpanic/lampa/archive/refs/tags/v0.1.7.tar.gz"
+  sha256 "0f276ebe6163434653ac9a1c5d802101003bbb980d6670eea23e505acadaf5ad"
   license "MIT"
   head "https://github.com/mechanicpanic/lampa.git", branch: "master"
 
